@@ -1,0 +1,9 @@
+{
+	"paths" : {
+		"view" : "/views/",
+		"controller" : "/",
+		"static" : "/asset/",
+		"spa_script" : "/asset/js/spa/",
+		"not_found" : "404.html"
+	}
+}

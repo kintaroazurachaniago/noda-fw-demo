@@ -1,0 +1,19 @@
+<!-- File name : SPA.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/asset/css/style.css">
+	<title>-={ data.title }=-</title>
+</head>
+<body onload="run_time()">
+	<div class="copyright">&copy;KINTARO<span class="tahun">0000</span></div>
+	-=[ include('navbar') ]=-
+	<div class="spa-element">
+		-=[ include(spa_views, data) ]=-
+	</div>
+	<script src="/asset/js/script.js"></script>
+	<script src="-={ setting.paths.spa_script }=-"></script>
+</body>
+</html>
